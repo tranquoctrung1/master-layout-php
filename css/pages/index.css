@@ -1,0 +1,11 @@
+/* khai báo biến cho màu */
+:color {
+    --blue: blue;
+    --red: red;
+}
+
+
+.index-page
+{
+    background: var(--red);
+}

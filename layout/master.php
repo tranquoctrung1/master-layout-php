@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
     <title><?php echo $tittle ?></title>
 </head>
 <body>
     <header><?php include('header.php'); ?></header>
-    <div><?php echo $page_content; ?></div>
+    <div class=<?php echo $class ?>><?php echo $page_content; ?></div>
     <footer><?php include('footer.php'); ?></footer>
 
 

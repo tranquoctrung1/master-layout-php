@@ -1,0 +1,9 @@
+/* hút file css trong common thư mục */
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/master.css";
+
+/* hút các file css trong thư mục page */
+
+@import "./pages/index.css";
+@import "./pages/login.css";
